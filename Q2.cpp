@@ -14,6 +14,16 @@ int main ()
         cout << "Three digit number is : " << num;
 
         // condition - 
+        int lastDigit;
+        int sum = 0;
+        while (num > 0)
+        {
+            lastDigit = num % 10;
+            sum = sum + lastDigit;
+            num = num / 10;
+        }
+
+        cout << "\nSum of 3 digit number is " << sum;
     }
     else
     {

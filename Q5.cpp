@@ -15,9 +15,9 @@ int main()
     M = (Seconds % 3600) / 60;
     S = Seconds % 60;
 
-    cout << "HH:MM:SS\n";
+    cout << "HH : MM : SS\n";
 
-     cout << setfill('0') << setw(2) << H << ":" << setw(2) << M << ":" << setw(2) << S << endl;
+     cout << setfill('0') << setw(2) << H << " : " << setw(2) << M << " : " << setw(2) << S << endl;
 
     return 0;
 }
